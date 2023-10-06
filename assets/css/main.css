@@ -3535,7 +3535,7 @@ input, select, textarea {
 		background-size: auto,							cover,							cover;
 		text-align: center;
 	}
-	/* .breakwhitespace{
+	.breakwhitespace{
 		padding: 1em 0 1em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
@@ -3544,7 +3544,7 @@ input, select, textarea {
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
-	} */
+	}
 	#emailform{
 		padding: 1em 0 1em 0 ;
 		background-color: #4686a0;
