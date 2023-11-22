@@ -3562,7 +3562,7 @@ input, select, textarea {
 		border-radius: 4rem;
 		color: black;
 	} */
-	#emaillink{
+	.emaillink{
 		width: 80%;
 		background-color: white;
 		margin: 0 auto;
