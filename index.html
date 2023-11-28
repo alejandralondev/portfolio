@@ -377,37 +377,22 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<li><span class="button disabled">Disabled</span></li>
 						</ul>
 					</section> -->
-
-					<!-- <form name="contact" netlify>
-						<p>
-						  <label>Name <input type="text" name="name" /></label>
-						</p>
-						<p>
-						  <label>Email <input type="email" name="email" /></label>
-						</p>
-						<p>
-						  <button type="submit">Send</button>
-						</p>
-					  </form> -->
-
-
-					<form method='post'><input type='hidden' name='form-name' value='form 1' />
-						<div class="fields">
-							<label for="name">Name</label>
-							<input type="text" name="name" required>
-							<br>
-						
-							<label for="email">Email</label>
-							<input type="email" name="email" required>
-							<br>
-						
-							<label for="message">Message</label>
-							<textarea name="message" id="message"></textarea>
-							<br>
-						
-							<button type="submit">Send</button>
-						</div>
+					<form
+					  action="https://formspree.io/f/mrgwwlna"
+					  method="POST"
+					  >
+					  <label>
+					    Your email:
+					    <input type="email" name="email">
+					  </label>
+					  <label>
+					    Your message:
+					    <textarea name="message"></textarea>
+					  </label>
+					  <!-- your other form fields go here -->
+					  <button type="submit">Send</button>
 					</form>
+					
 
 					<!-- <section id="emailform">
 						<div class="emaillink">
