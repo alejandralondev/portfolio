@@ -3554,14 +3554,18 @@ input, select, textarea {
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
+		
 	}
-	/* #emailform2{
-		width: 80%;
+	#emailform2{
+		width: 100%;
 		background-color: white;
 		margin: 0 auto;
 		border-radius: 4rem;
 		color: black;
-	} */
+	}
+	input{
+		border-radius: 4rem;
+	}
 	.emaillink{
 		width: 80%;
 		background-color: white;
