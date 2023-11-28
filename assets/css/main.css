@@ -3560,12 +3560,10 @@ input, select, textarea {
 		width: 100%;
 		background-color: white;
 		margin: 0 auto;
-		border-radius: 4rem;
+		/* border-radius: 4rem; */
 		color: black;
 	}
-	input{
-		border-radius: 4rem;
-	}
+
 	.emaillink{
 		width: 80%;
 		background-color: white;
